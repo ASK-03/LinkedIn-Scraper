@@ -1,0 +1,141 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/example.json",
+    "title": "Json schema for profile scraper",
+    "description": "Json schema for profile scraper",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string",
+            "description": "URL of the person's profile"
+        },
+        "name": {
+            "type": "string",
+            "description": "Name of the person"
+        },
+        "location": {
+            "type": "string",
+            "description": "Location of the person"
+        },
+        "experience": {
+            "type": "array",
+            "description": "Experience of the person",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "string",
+                        "description": "Title of the job"
+                    },
+                    "company": {
+                        "type": "string",
+                        "description": "Company of the job"
+                    },
+                    "employmentType": {
+                        "type": "string",
+                        "description": "Employment type of the job"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "description": "Start date of the job"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "description": "End date of the job"
+                    },
+                    "duration": {
+                        "type": "string",
+                        "description": "Duration of the job"
+                    },
+                    "location": {
+                        "type": "string",
+                        "description": "Location of the job"
+                    },
+                    "locationType": {
+                        "type": "string",
+                        "description": "Location type of the job"
+                    },
+                }
+            }
+        },
+        "education": {
+            "type": "array",
+            "description": "Education of the person",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "school": {
+                        "type": "string",
+                        "description": "School of the education"
+                    },
+                    "degree": {
+                        "type": "string",
+                        "description": "Degree of the education"
+                    },
+                    "fieldOfStudy": {
+                        "type": "string",
+                        "description": "Field of study of the education"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "description": "Start date of the education"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "description": "End date of the education"
+                    },
+                    "duration": {
+                        "type": "string",
+                        "description": "Duration of the education"
+                    },
+                }
+            }
+        },
+        "volunteering": {
+            "type": "array",
+            "description": "Volunteering of the person",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "role": {
+                        "type": "string",
+                        "description": "Role played by the person in volunteering experience"
+                    },
+                    "organisation": {
+                        "type": "string",
+                        "description": "organisation of the volunteering"
+                    },
+                    "startDate": {
+                        "type": "string",
+                        "description": "Start date of the volunteering"
+                    },
+                    "endDate": {
+                        "type": "string",
+                        "description": "End date of the volunteering"
+                    },
+                    "duration": {
+                        "type": "string",
+                        "description": "Duration of the volunteering"
+                    },
+                    "cause": {
+                        "type": "string",
+                        "description": "Cause of the volunteering"
+                    },
+                }
+            }
+        },
+        "skills": {
+            "type": "array",
+            "description": "Skills of the person",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "skill": {
+                        "type": "string",
+                        "description": "Skill of the person"
+                    },
+                }
+            },
+        },
+    },
+}
