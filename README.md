@@ -17,6 +17,11 @@ Automatically extracts the information like, name, location, experience, educati
   ```
   pip install selenium
   ```
+  OR 
+  ```
+  pip install -r requirements.txt
+  ```
+  After cloning the repository, to install all the requirements at once.
 - **Chromium Drivers**: Make sure you have the appropriate Chromium drivers installed and configured. These drivers are required for Selenium to interact with the Chromium browser. Refer to the Selenium documentation for instructions on installing and setting up Chromium drivers based on your operating system.
 
 
@@ -65,15 +70,34 @@ To use LinkedIn Scraper, follow the steps given below:
 **Note:** This method has lower risks of failure.
 
 **(Other)**
-- Open config.ini file in a text editor, and add you preferable LinkedIn account's login credentials.
+- Copy the ```example.config.ini``` file and name it as ``config.ini``.
+- Open ``config.ini`` file in a text editor, and add you preferable LinkedIn account's login credentials.
 - Run the scraper.py using the following command:
     ```
     python3 scraper.py
     ```
 
+### Other Features
+Some other helpful and cool features:
+- **URL**: URL of the profile can be added easily in the command, that means no need to change any code :)
+  ```
+  python3 scraper.py --url URL_GOES_HERE
+  ```
+- **Save**: You get to decide that you want to save the output in a file or just output it in the terminal.
+  ```
+  python3 scrapper.py --save True
+  ```
+  Default is False, that means the output will be printed in the terminal.
+  
+  **NOTE:** It will create a new directory named **data** in the working directory, if --save True is chosen.
+- **Debug**: Good news for programmers, it has a ``--debug`` option that you can turn on to get **DEBUG** level logging in log file named **app.log**. Default it gives **WARNING** level logging.
+  ```
+  python3 scraper.py --debug True
+  ```
+  **NOTE:** Logging for selenium webdriver is set to **CRITICAL**, if you are having problems with selenium, it can be easily turned to **WARNING** or **DEBUG** level.
 ## Contributions
 
-Contributions to carrer-scraper are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository.
+Contributions to LinkedIn Profile Scraper are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the GitHub repository.
 
 ## Author
 
