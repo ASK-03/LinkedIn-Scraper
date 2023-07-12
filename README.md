@@ -79,6 +79,10 @@ To use LinkedIn Scraper, follow the steps given below:
 
 ### Other Features
 Some other helpful and cool features:
+- **Path**: Path of the `.txt` file where the links of the url are saved in the format given in `example.url.txt` file
+  ```
+  python3 scraper.py --path "path/to/file.txt"
+  ```
 - **URL**: URL of the profile can be added easily in the command, that means no need to change any code :)
   ```
   python3 scraper.py --url URL_GOES_HERE
@@ -102,7 +106,3 @@ Contributions to LinkedIn Profile Scraper are welcome! If you encounter any issu
 ## Author
 
 - [Abhishek Singh Kushwaha](https://github.com/ASK-03)
-
-## Mentor
-
-- [Kumar Shivendu](https://github.com/KShivendu)

@@ -1,0 +1,125 @@
+{
+    "url": "https://www.linkedin.com/in/ask03/",
+    "name": "Abhishek Singh Kushwaha",
+    "location": "\n      Faridabad, Haryana, India\n    ",
+    "experience": [
+        {
+            "title": "Coordinator",
+            "company": "DataScienceandArtificialIntelligenceClub,IITBhilai",
+            "employmentType": "Full-time",
+            "startDate": "May2023",
+            "endDate": "Present",
+            "duration": "2mos",
+            "location": "Raipur,Chhattisgarh,India",
+            "locationType": null
+        },
+        {
+            "title": "Mentor",
+            "company": "OpenLakeIITBhilai",
+            "employmentType": "Full-time",
+            "startDate": "May2022",
+            "endDate": "May2023",
+            "duration": "1yr1mo",
+            "location": "Raipur,Chhattisgarh,India",
+            "locationType": null
+        }
+    ],
+    "education": [
+        {
+            "school": "Indian Institute of Technology, Bhilai",
+            "degree": "Bachelor of Technology - BTech",
+            "fieldOfStudy": " Data Science and Artificial Intelligence ",
+            "startDate": "2021 ",
+            "endDate": " 2025",
+            "duration": 4
+        },
+        {
+            "school": "Modern Vidya Niketan, Sector-17, Faridabad",
+            "degree": "Higher Secondary Education",
+            "fieldOfStudy": null,
+            "startDate": "2019 ",
+            "endDate": " 2021",
+            "duration": 2
+        },
+        {
+            "school": "Vidya Mandir Public School, Sector-15A, Faridabad",
+            "degree": null,
+            "fieldOfStudy": null,
+            "startDate": "2008 ",
+            "endDate": " 2019",
+            "duration": 11
+        }
+    ],
+    "volunteering": [
+        {
+            "role": null,
+            "organisation": null,
+            "startDate": null,
+            "endDate": null,
+            "duration": null,
+            "cause": null
+        }
+    ],
+    "skills": [
+        {
+            "skill": "Amazon Web Services (AWS)"
+        },
+        {
+            "skill": "DevOps"
+        },
+        {
+            "skill": "Linux"
+        },
+        {
+            "skill": "LaTeX"
+        },
+        {
+            "skill": "Organizational Leadership"
+        },
+        {
+            "skill": "Community Outreach"
+        },
+        {
+            "skill": "Project Management"
+        },
+        {
+            "skill": "Team Leadership"
+        },
+        {
+            "skill": "Artificial Intelligence (AI)"
+        },
+        {
+            "skill": "Open-Source Software"
+        },
+        {
+            "skill": "Web Development"
+        },
+        {
+            "skill": "Machine Learning"
+        },
+        {
+            "skill": "C#"
+        },
+        {
+            "skill": "Python (Programming Language)"
+        },
+        {
+            "skill": "Unity"
+        },
+        {
+            "skill": "C++"
+        },
+        {
+            "skill": "Competitive Programming"
+        },
+        {
+            "skill": "Communication"
+        },
+        {
+            "skill": "Leadership"
+        },
+        {
+            "skill": "Android Studio"
+        }
+    ]
+}
