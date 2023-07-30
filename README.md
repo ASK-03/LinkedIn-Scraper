@@ -1,4 +1,3 @@
-
 # LinkedIn Profile Scraper
 
 The LinkedIn Profile Scraper is a tool designed to extract information from the profile page of a given URL on LinkedIn. It provides an automated way to gather data from LinkedIn profiles, such as personal details, work experience, education, skills, and more.
